@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%; 
+  text-align: center;
+}
+
+.App-logo {
+  height: 100%;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #000;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: pink;
+  padding: 1vh 10vw;
+}
+
+.data {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid purple;
+    border-radius: 20px;
+    width: 45%;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 50%;
+  }
+  &__column--single {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+  }
+  &__row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    & input {
+      max-width: 50%;
+      width: 100%;
+      margin-left: 5px;
+    }
+  }
+}
+
+
