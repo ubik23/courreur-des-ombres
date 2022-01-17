@@ -11,16 +11,22 @@ function App() {
       <div className="data__wrapper">
         <div className="data__container">
           <div className="data__column--single">
-          <div className="data__row"><label>Player</label>
-          <input type="text" /></div>
           <div className="data__row"><label>Character</label>
           <input type="text" /></div>
+          <div className="data__row"><label>Player</label>
+          <input type="text" /></div>
+          <div className="data__row"><label>Notes</label>
+          <input type="text" /></div>
+        </div>
+      </div>
+      <div className="data__container">
+        <div className="data__column--single">
           <div className="data__row"><label>Metatype</label>
           <input type="text" /></div>
           <div className="data__row"><label>Ethnicity</label>
           <input type="text" /></div>
           <div className="data__row"><label>Age</label>
-          <input type="text" /></div>
+          <input type="number" /></div>
           <div className="data__row"><label>Sex</label>
           <input type="text" /></div>
           <div className="data__row"><label>Height</label>

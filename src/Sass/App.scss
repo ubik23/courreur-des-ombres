@@ -22,12 +22,13 @@ body {
 
 .App-header {
   background-color: #000;
+  font-size: 1.5rem;
   height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: pink;
+  color: purple;
   padding: 1vh 10vw;
 }
 
@@ -48,7 +49,7 @@ body {
     border: 2px solid purple;
     border-radius: 20px;
     width: 45%;
-    margin: 10px 0 0 10px;
+    margin: 20px 0 0 20px;
     padding: 10px;
   }
   &__column {
@@ -72,9 +73,14 @@ body {
     justify-content: flex-end;
     align-items: center;
     & input {
+      text-align: center;
       max-width: 50%;
       width: 100%;
-      margin-left: 5px;
+      height: 1rem;
+      border: solid 2px lightgray;
+      border-radius: 1rem;
+      margin: .25rem 5px;
+      background-color: lightgray;
     }
   }
 }
