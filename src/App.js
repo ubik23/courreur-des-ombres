@@ -98,6 +98,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="footer">
+        <button className="save-btn">Save</button>
+      </div>
     </div>
   );
 }
