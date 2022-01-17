@@ -20,6 +20,7 @@ function App() {
         </div>
       </div>
       <div className="data__container">
+      <span className="data__container__title">Personal data</span>
         <div className="data__column--single">
           <div className="data__row"><label>Metatype</label>
           <input type="text" /></div>
@@ -44,53 +45,56 @@ function App() {
           </div>
         </div>
         <div className="data__container">
-          <div className="data__column">
-            <div className="data__row"><label>Body</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Agility</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Reaction</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Strength</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Willpower</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Logic</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Intuition</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Charisma</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Edge</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Edge Points</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Unarmed</label>
-            <input type="number" /></div>
-          </div>
-          <div className="data__column">
-            <div className="data__row"><label>Essence</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Magic/Resonance</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Initiative</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Matrix Initiative</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Astral Initiative</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Composure</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Judge Intentions</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Memory</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Lift/Carry</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Movement</label>
-            <input type="number" /></div>
-            <div className="data__row"><label>Defense Rating</label>
-            <input type="number" /></div>
+          <span className="data__container__title">Attributes</span>
+          <div className="data__multi-col">
+            <div className="data__column">
+              <div className="data__row"><label>Body</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Agility</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Reaction</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Strength</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Willpower</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Logic</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Intuition</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Charisma</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Edge</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Edge Points</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Unarmed</label>
+              <input type="number" /></div>
+            </div>
+            <div className="data__column">
+              <div className="data__row"><label>Essence</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Magic/Resonance</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Initiative</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Matrix Initiative</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Astral Initiative</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Composure</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Judge Intentions</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Memory</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Lift/Carry</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Movement</label>
+              <input type="number" /></div>
+              <div className="data__row"><label>Defense Rating</label>
+              <input type="number" /></div>
+            </div>
           </div>
         </div>
       </div>
