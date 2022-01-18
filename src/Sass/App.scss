@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -116,12 +118,16 @@ body {
   & button.save-btn {
     background-color: purple;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     border: none;
     border-radius: 1.5rem;
     padding: 0.5rem 1.5rem;
     text-transform: uppercase;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
